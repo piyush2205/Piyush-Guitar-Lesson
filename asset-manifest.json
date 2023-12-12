@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Piyush-Guitar-Lesson/static/css/main.c0989b4b.css",
-    "main.js": "/Piyush-Guitar-Lesson/static/js/main.c46447d0.js",
+    "main.css": "/Piyush-Guitar-Lesson/static/css/main.8645c8d4.css",
+    "main.js": "/Piyush-Guitar-Lesson/static/js/main.3782889e.js",
     "index.html": "/Piyush-Guitar-Lesson/index.html",
-    "main.c0989b4b.css.map": "/Piyush-Guitar-Lesson/static/css/main.c0989b4b.css.map",
-    "main.c46447d0.js.map": "/Piyush-Guitar-Lesson/static/js/main.c46447d0.js.map"
+    "main.8645c8d4.css.map": "/Piyush-Guitar-Lesson/static/css/main.8645c8d4.css.map",
+    "main.3782889e.js.map": "/Piyush-Guitar-Lesson/static/js/main.3782889e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0989b4b.css",
-    "static/js/main.c46447d0.js"
+    "static/css/main.8645c8d4.css",
+    "static/js/main.3782889e.js"
   ]
 }
