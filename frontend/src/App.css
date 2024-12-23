@@ -1,0 +1,132 @@
+.App {
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+
+
+.song-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.song-list li {
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: #ddd;
+  border-radius: 4px;
+  transition: background-color 0.9s ease;
+}
+
+.song-list li:hover {
+  background-color: #ccc;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.song-display {
+  text-align: center;
+}
+
+.chords,
+.lyrics {
+  margin-top: 20px;
+  font-size: 20px;
+  white-space: pre-line;
+}
+/* src/App.css */
+.App {
+  display: flex;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.sidebar {
+  flex: 1;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.main-content {
+  flex: 3;
+  padding: 20px;
+
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  /* position: absolute; */
+  bottom: 0;
+  width: 100%;
+}
+pre{
+  width: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .sidebar {
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 100%;
+    max-width: 300px; /* Adjust the max-width as needed */
+  }
+  
+  .song-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .song-list li {
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: #ddd;
+  }
+  
+  .main-content {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px; /* Adjust the max-width as needed */
+  }
+  
+  .song-display {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .chords,
+  .lyrics {
+    white-space: pre-line;
+  }
+  
+  body {
+    background-color: #ffffffbe;
+    
+  }
+ 
+  
+}
